@@ -1,6 +1,8 @@
 import React from 'react';
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 const App = () => {
+	// Component Driven UI Interface
+	// What did we revise: React COre Syntax & JSX, Working With Components, Creating Component Wrappers, Working with Data
 	const expenses = [
 		{
 			id: 'e1',
